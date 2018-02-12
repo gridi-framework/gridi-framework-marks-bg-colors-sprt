@@ -1,0 +1,7 @@
+$mark-background-colors-support-parser: (
+    background-color: 'background-inner-color',
+    color: 'color'
+) !default;
+
+$mark-background-colors-support-extra-colors-palette: () !default;
+$mark-background-colors-support-skip-colors-palette: null !default;

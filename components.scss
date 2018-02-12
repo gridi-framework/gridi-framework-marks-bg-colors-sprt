@@ -1,0 +1,5 @@
+@each $palette-color-prefix, $palette-color-variables in get-background-colors-palette($mark-background-colors-support-extra-colors-palette, $mark-background-colors-support-skip-colors-palette) {
+    .#{$background-colors-class-prefix}-#{$palette-color-prefix} {
+        @include mark-colors(parse-map($mark-background-colors-support-parser, $palette-color-variables));
+    }
+}
